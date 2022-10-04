@@ -16,62 +16,81 @@
 extern void BigGridManager_Start_mE8B6D2D54518129F91B0A91A14DC76E88DBD2C0C (void);
 // 0x00000002 System.Void BigGridManager::SetScoreOfThisThing(System.Int32,System.Int32)
 extern void BigGridManager_SetScoreOfThisThing_m25B82A02B2A1A5B12FAE950B3133E5C2980AA66C (void);
-// 0x00000003 System.Void BigGridManager::.ctor()
+// 0x00000003 System.Void BigGridManager::checkForTie()
+extern void BigGridManager_checkForTie_m41D1705EC4F9FCB38BEB9F0D2517EB8BB2990160 (void);
+// 0x00000004 System.Void BigGridManager::.ctor()
 extern void BigGridManager__ctor_mB8D0AEF55AE2965B446FB916DE6CEF0B785FC1EA (void);
-// 0x00000004 System.Void BoxClicked::Start()
+// 0x00000005 System.Void BoxClicked::Start()
 extern void BoxClicked_Start_m69024961F56794F5D1F7E279E994AF983FA96B50 (void);
-// 0x00000005 System.Void BoxClicked::OnMouseDown()
+// 0x00000006 System.Void BoxClicked::OnMouseDown()
 extern void BoxClicked_OnMouseDown_mA03C7EFFBA06AD2ECBB604CD8A652403906265D9 (void);
-// 0x00000006 System.Void BoxClicked::OnMouseExit()
+// 0x00000007 System.Void BoxClicked::OnMouseExit()
 extern void BoxClicked_OnMouseExit_mB21C0EE5256B446A105F8DF8DCD670E6EE009771 (void);
-// 0x00000007 System.Void BoxClicked::OnMouseOver()
+// 0x00000008 System.Void BoxClicked::OnMouseOver()
 extern void BoxClicked_OnMouseOver_m1779BCC935D76710C1B9DC755802AF781C455694 (void);
-// 0x00000008 System.Void BoxClicked::SpawnXorO()
+// 0x00000009 System.Void BoxClicked::SpawnXorO()
 extern void BoxClicked_SpawnXorO_m7B44BDEE0D93187404A7EA0B47AEB8DD737AB306 (void);
-// 0x00000009 System.Void BoxClicked::UpdateTracking()
+// 0x0000000A System.Void BoxClicked::UpdateTracking()
 extern void BoxClicked_UpdateTracking_m638FA8E7D886CD276E2EC1BB3223E7D944210DB4 (void);
-// 0x0000000A System.Void BoxClicked::.ctor()
+// 0x0000000B System.Void BoxClicked::.ctor()
 extern void BoxClicked__ctor_mE204D89102E618967923E8488C2D4CD1973CE150 (void);
-// 0x0000000B System.Void GameManager::Start()
+// 0x0000000C System.Void GameManager::Start()
 extern void GameManager_Start_m26461AEF27E44DB8FECCBC19D6C9E228B658BF8E (void);
-// 0x0000000C System.Void GameManager::Update()
+// 0x0000000D System.Void GameManager::Update()
 extern void GameManager_Update_mC9303BA7C3117BD861F49F8E36151CC52117E6C1 (void);
-// 0x0000000D System.Void GameManager::Restart()
+// 0x0000000E System.Void GameManager::Restart()
 extern void GameManager_Restart_m1E9741B5443E1FF65B0BE1A20A8F584C90394654 (void);
-// 0x0000000E System.Void GameManager::AnimateIndicator()
+// 0x0000000F System.Void GameManager::AnimateIndicator()
 extern void GameManager_AnimateIndicator_m7F516DFAB136240395CF21B4989CA2AC1DCE5109 (void);
-// 0x0000000F System.Boolean GameManager::CheckPlayable(System.Int32[])
+// 0x00000010 System.Boolean GameManager::CheckPlayable(System.Int32[])
 extern void GameManager_CheckPlayable_m41D77A4CCE29E6D1F5390F205D6C3C8BE7A1509A (void);
-// 0x00000010 System.Int32 GameManager::CheckForWin(System.Int32[])
+// 0x00000011 System.Int32 GameManager::CheckForWin(System.Int32[])
 extern void GameManager_CheckForWin_m240EFF4C38586CBB2BB408D323E6305368A26199 (void);
-// 0x00000011 System.Void GameManager::.ctor()
+// 0x00000012 System.Void GameManager::.ctor()
 extern void GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D (void);
-// 0x00000012 System.Void GridManager::Start()
+// 0x00000013 System.Void GridManager::Start()
 extern void GridManager_Start_m7186B78066068856342E44023A308EBE161C73D0 (void);
-// 0x00000013 System.Void GridManager::SetScoreOfThisThing(System.Int32,System.Int32)
+// 0x00000014 System.Void GridManager::SetScoreOfThisThing(System.Int32,System.Int32)
 extern void GridManager_SetScoreOfThisThing_mE9A425C8663CF70D49D0B6D2116DBE98206C3FF5 (void);
-// 0x00000014 System.Void GridManager::ThisGameWon(System.Int32)
+// 0x00000015 System.Void GridManager::ThisGameWon(System.Int32)
 extern void GridManager_ThisGameWon_m2B7FB53DBA65B442B153FE2320B5CB3463978A1B (void);
-// 0x00000015 System.Void GridManager::.ctor()
+// 0x00000016 System.Void GridManager::.ctor()
 extern void GridManager__ctor_mA0C5D0BA6335DF2309495BC6F90061C3D82365FD (void);
-// 0x00000016 System.Void RomanScuffedCam::LateUpdate()
+// 0x00000017 System.Void RomanScuffedCam::LateUpdate()
 extern void RomanScuffedCam_LateUpdate_m159EBC00591283B2D7F8E4238ECE2F046840D27C (void);
-// 0x00000017 System.Void RomanScuffedCam::.ctor()
+// 0x00000018 System.Void RomanScuffedCam::.ctor()
 extern void RomanScuffedCam__ctor_m9E3E631C5287BBBA0100F06AB3809202D7DB3287 (void);
-// 0x00000018 System.Void WhereToPlay::Start()
+// 0x00000019 System.Void ThemeToggle::Start()
+extern void ThemeToggle_Start_mD22C40A182EC04C2043D3444681646ACAE65C44C (void);
+// 0x0000001A System.Void ThemeToggle::Update()
+extern void ThemeToggle_Update_mAE9BF3B20CA39DF1C4296F0EC6DB5A996BA637CD (void);
+// 0x0000001B System.Void ThemeToggle::.ctor()
+extern void ThemeToggle__ctor_m396BF6AF84B5F2B3801D06E843764F5237D9EBC9 (void);
+// 0x0000001C System.Void WhereToPlay::Start()
 extern void WhereToPlay_Start_m94F776C62F0439D4B3B25C6F72FE86A20E4DAEEE (void);
-// 0x00000019 System.Void WhereToPlay::Update()
+// 0x0000001D System.Void WhereToPlay::Update()
 extern void WhereToPlay_Update_mB53190A1E158181C8B39358688D3F285F2852A58 (void);
-// 0x0000001A System.Void WhereToPlay::SetLocationAndScale(UnityEngine.Transform)
+// 0x0000001E System.Void WhereToPlay::SetLocationAndScale(UnityEngine.Transform)
 extern void WhereToPlay_SetLocationAndScale_mA34171FB13BF96E0C864ED219B66E85384895301 (void);
-// 0x0000001B System.Void WhereToPlay::focusOnBigGrid()
+// 0x0000001F System.Void WhereToPlay::focusOnBigGrid()
 extern void WhereToPlay_focusOnBigGrid_mEDEACC56A26C01E2734A1CD4AC75A9C610899DA4 (void);
-// 0x0000001C System.Void WhereToPlay::.ctor()
+// 0x00000020 System.Void WhereToPlay::.ctor()
 extern void WhereToPlay__ctor_m9CDF76073717736C5295690CF7C9C64D29EC42F7 (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+// 0x00000021 System.Void platformSpecific::Start()
+extern void platformSpecific_Start_m06BEC93ABEBA34C8F8087A1E5C1D34B798872167 (void);
+// 0x00000022 System.Void platformSpecific::.ctor()
+extern void platformSpecific__ctor_m122DFAF7EA6C12E7F8FA795E56F6918ADBB84E4E (void);
+// 0x00000023 System.Void hideMe::Start()
+extern void hideMe_Start_mA65A0861B2EDDB476C8CD814E0C2E0B294B5686C (void);
+// 0x00000024 System.Void hideMe::Update()
+extern void hideMe_Update_m5EC3288D18B16048E0E5F59E1359B319E8D7E38D (void);
+// 0x00000025 System.Void hideMe::.ctor()
+extern void hideMe__ctor_mE7A5267E025CFBDBD0AA71B636F233F753CF72E9 (void);
+static Il2CppMethodPointer s_methodPointers[37] = 
 {
 	BigGridManager_Start_mE8B6D2D54518129F91B0A91A14DC76E88DBD2C0C,
 	BigGridManager_SetScoreOfThisThing_m25B82A02B2A1A5B12FAE950B3133E5C2980AA66C,
+	BigGridManager_checkForTie_m41D1705EC4F9FCB38BEB9F0D2517EB8BB2990160,
 	BigGridManager__ctor_mB8D0AEF55AE2965B446FB916DE6CEF0B785FC1EA,
 	BoxClicked_Start_m69024961F56794F5D1F7E279E994AF983FA96B50,
 	BoxClicked_OnMouseDown_mA03C7EFFBA06AD2ECBB604CD8A652403906265D9,
@@ -93,16 +112,25 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	GridManager__ctor_mA0C5D0BA6335DF2309495BC6F90061C3D82365FD,
 	RomanScuffedCam_LateUpdate_m159EBC00591283B2D7F8E4238ECE2F046840D27C,
 	RomanScuffedCam__ctor_m9E3E631C5287BBBA0100F06AB3809202D7DB3287,
+	ThemeToggle_Start_mD22C40A182EC04C2043D3444681646ACAE65C44C,
+	ThemeToggle_Update_mAE9BF3B20CA39DF1C4296F0EC6DB5A996BA637CD,
+	ThemeToggle__ctor_m396BF6AF84B5F2B3801D06E843764F5237D9EBC9,
 	WhereToPlay_Start_m94F776C62F0439D4B3B25C6F72FE86A20E4DAEEE,
 	WhereToPlay_Update_mB53190A1E158181C8B39358688D3F285F2852A58,
 	WhereToPlay_SetLocationAndScale_mA34171FB13BF96E0C864ED219B66E85384895301,
 	WhereToPlay_focusOnBigGrid_mEDEACC56A26C01E2734A1CD4AC75A9C610899DA4,
 	WhereToPlay__ctor_m9CDF76073717736C5295690CF7C9C64D29EC42F7,
+	platformSpecific_Start_m06BEC93ABEBA34C8F8087A1E5C1D34B798872167,
+	platformSpecific__ctor_m122DFAF7EA6C12E7F8FA795E56F6918ADBB84E4E,
+	hideMe_Start_mA65A0861B2EDDB476C8CD814E0C2E0B294B5686C,
+	hideMe_Update_m5EC3288D18B16048E0E5F59E1359B319E8D7E38D,
+	hideMe__ctor_mE7A5267E025CFBDBD0AA71B636F233F753CF72E9,
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[37] = 
 {
 	2629,
 	1176,
+	2629,
 	2629,
 	2629,
 	2629,
@@ -126,7 +154,15 @@ static const int32_t s_InvokerIndices[28] =
 	2629,
 	2629,
 	2629,
+	2629,
+	2629,
+	2629,
 	2144,
+	2629,
+	2629,
+	2629,
+	2629,
+	2629,
 	2629,
 	2629,
 };
@@ -135,7 +171,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	28,
+	37,
 	s_methodPointers,
 	0,
 	NULL,

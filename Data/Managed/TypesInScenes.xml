@@ -45,13 +45,14 @@
 		<type fullname="GridManager" preserve="nothing"/>
 		<type fullname="RomanScuffedCam" preserve="nothing"/>
 		<type fullname="WhereToPlay" preserve="nothing"/>
+		<type fullname="hideMe" preserve="nothing"/>
+		<type fullname="platformSpecific" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
-		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.VectorGraphics">
 		<type fullname="Unity.VectorGraphics.SVGImage" preserve="nothing"/>
