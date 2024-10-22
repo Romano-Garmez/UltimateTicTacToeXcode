@@ -14,8 +14,8 @@
 
 // 0x00000001 UnityEngine.Sprite Unity.VectorGraphics.InternalBridge::CreateSprite(UnityEngine.Rect,UnityEngine.Vector2,System.Single,UnityEngine.Texture2D)
 extern void InternalBridge_CreateSprite_m9BDE682F70ED305493E82987E62273E4C9F61F78 (void);
-// 0x00000002 UnityEngine.Object Unity.VectorGraphics.InternalBridge::MakeVectorImageAsset(System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge>,System.Collections.Generic.IEnumerable`1<System.UInt16>,UnityEngine.Texture2D,System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge>,UnityEngine.Vector2)
-extern void InternalBridge_MakeVectorImageAsset_m52A210DF5197CDF3DB44CF5F237AD555A4C7BF79 (void);
+// 0x00000002 UnityEngine.Object Unity.VectorGraphics.InternalBridge::MakeVectorImageAsset(System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge>,System.Collections.Generic.IEnumerable`1<System.UInt16>,UnityEngine.Texture2D,System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge>,UnityEngine.Rect)
+extern void InternalBridge_MakeVectorImageAsset_m4E80166A6B4065DA578145CD9B1DC7C29132D964 (void);
 // 0x00000003 System.Boolean Unity.VectorGraphics.InternalBridge::GetDataFromVectorImage(UnityEngine.Object,UnityEngine.Vector2[]&,System.UInt16[]&,UnityEngine.Vector2[]&,UnityEngine.Color[]&,UnityEngine.Vector2[]&,Unity.VectorGraphics.InternalBridge/GradientSettingsBridge[]&,UnityEngine.Texture2D&,UnityEngine.Vector2&)
 extern void InternalBridge_GetDataFromVectorImage_m67E0B8504EC94AFD834397241616B094CCC0A670 (void);
 // 0x00000004 System.Void Unity.VectorGraphics.InternalBridge/<>c::.cctor()
@@ -39,7 +39,7 @@ extern void U3CU3Ec_U3CGetDataFromVectorImageU3Eb__6_4_m25BB66F86301EE3753744385
 static Il2CppMethodPointer s_methodPointers[12] = 
 {
 	InternalBridge_CreateSprite_m9BDE682F70ED305493E82987E62273E4C9F61F78,
-	InternalBridge_MakeVectorImageAsset_m52A210DF5197CDF3DB44CF5F237AD555A4C7BF79,
+	InternalBridge_MakeVectorImageAsset_m4E80166A6B4065DA578145CD9B1DC7C29132D964,
 	InternalBridge_GetDataFromVectorImage_m67E0B8504EC94AFD834397241616B094CCC0A670,
 	U3CU3Ec__cctor_mDCEB2BFDD3A42C0EC1C095DBCD82DABDE3D4A3CB,
 	U3CU3Ec__ctor_m33F77648BEEE400CC371FEEF8EDF5186998F96E0,
@@ -53,18 +53,18 @@ static Il2CppMethodPointer s_methodPointers[12] =
 };
 static const int32_t s_InvokerIndices[12] = 
 {
-	3073,
-	2884,
-	2688,
-	3892,
-	2629,
-	2009,
-	1477,
-	1995,
-	1995,
-	1424,
-	1995,
-	2246,
+	3111,
+	2913,
+	2709,
+	3947,
+	2650,
+	2027,
+	1494,
+	2013,
+	2013,
+	1441,
+	2013,
+	2264,
 };
 extern const CustomAttributesCacheGenerator g_Unity_InternalAPIEngineBridge_003_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_003_CodeGenModule;

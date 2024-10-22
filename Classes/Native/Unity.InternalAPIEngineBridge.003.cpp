@@ -1916,6 +1916,8 @@ inline GradientSettingsU5BU5D_tA46B4329A05EDB682A503179055DF4B31B2E7EEA* Enumera
 {
 	return ((  GradientSettingsU5BU5D_tA46B4329A05EDB682A503179055DF4B31B2E7EEA* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisGradientSettings_tDEB247FD6A620DBAE28BDA610E45FEEF5CA81733_m938BE2777DDE5E75C9AE3F8C0357EA79A8578189_gshared)(___source0, method);
 }
+// UnityEngine.Vector2 UnityEngine.Rect::get_size()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  Rect_get_size_m752B3BB45AE862F6EAE941ED5E5C1B01C0973A00 (Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
 // System.Void System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Vector2>::.ctor(System.Object,System.IntPtr)
@@ -2002,8 +2004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_t5B10B1178EC2E6F53D33FFD77557F31C08A51
 		return L_4;
 	}
 }
-// UnityEngine.Object Unity.VectorGraphics.InternalBridge::MakeVectorImageAsset(System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge>,System.Collections.Generic.IEnumerable`1<System.UInt16>,UnityEngine.Texture2D,System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge>,UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * InternalBridge_MakeVectorImageAsset_m52A210DF5197CDF3DB44CF5F237AD555A4C7BF79 (RuntimeObject* ___vertices0, RuntimeObject* ___indices1, Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * ___atlas2, RuntimeObject* ___settings3, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___size4, const RuntimeMethod* method)
+// UnityEngine.Object Unity.VectorGraphics.InternalBridge::MakeVectorImageAsset(System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge>,System.Collections.Generic.IEnumerable`1<System.UInt16>,UnityEngine.Texture2D,System.Collections.Generic.IEnumerable`1<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge>,UnityEngine.Rect)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * InternalBridge_MakeVectorImageAsset_m4E80166A6B4065DA578145CD9B1DC7C29132D964 (RuntimeObject* ___vertices0, RuntimeObject* ___indices1, Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * ___atlas2, RuntimeObject* ___settings3, Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878  ___rect4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2145,9 +2147,10 @@ IL_0069:
 		L_23 = Enumerable_ToArray_TisGradientSettings_tDEB247FD6A620DBAE28BDA610E45FEEF5CA81733_m938BE2777DDE5E75C9AE3F8C0357EA79A8578189(L_22, /*hidden argument*/Enumerable_ToArray_TisGradientSettings_tDEB247FD6A620DBAE28BDA610E45FEEF5CA81733_m938BE2777DDE5E75C9AE3F8C0357EA79A8578189_RuntimeMethod_var);
 		NullCheck(G_B4_2);
 		G_B4_2->set_settings_7(L_23);
-		// vectorImage.size = size;
+		// vectorImage.size = rect.size;
 		VectorImage_t2C2B26B2A738C1DCD0845B82228343838DAE2022 * L_24 = G_B4_3;
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_25 = ___size4;
+		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_25;
+		L_25 = Rect_get_size_m752B3BB45AE862F6EAE941ED5E5C1B01C0973A00((Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 *)(&___rect4), /*hidden argument*/NULL);
 		NullCheck(L_24);
 		L_24->set_size_8(L_25);
 		// return vectorImage;
